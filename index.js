@@ -2,9 +2,9 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Hello/>
-                <NumPicker/>
-                <JSXDemo/>
+                <Machine/>
+                <Machine/>
+                <Machine/>
             </div>
         )
     }
