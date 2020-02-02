@@ -27,5 +27,3 @@ class Machine extends React.Component {
         )
     }
 }
-
-//test push

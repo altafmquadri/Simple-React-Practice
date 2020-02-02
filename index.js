@@ -1,16 +1,18 @@
 class App extends React.Component {
-    render() {
+    render(){
         return (
             <div>
-                <Machine/>
-                <Machine/>
-                <Machine/>
+                <Hello to='Sam'/>
+                <Friend
+                name="Elton"
+                hobbies={['riding a motorcycle', 'programming']}/>
+                <Friend
+                name="Frida"
+                hobbies={['riding a motorcycle', 'programming', 'sewing']}/>
             </div>
         )
     }
 }
 
 ReactDOM.render(<App/>, document.getElementById('root'))
-
-
 
